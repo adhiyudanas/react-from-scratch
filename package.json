@@ -1,0 +1,33 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "Building react app from scratch (without command line) and add own modification",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhiyudanas/react-from-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adhiyudanas/react-from-scratch/issues"
+  },
+  "homepage": "https://github.com/adhiyudanas/react-from-scratch#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
